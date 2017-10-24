@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00F60811F9DE6BC00E53D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F60801F9DE6BC00E53D42 /* AppDelegate.swift */; };
+		A00F60831F9DE6BC00E53D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F60821F9DE6BC00E53D42 /* ViewController.swift */; };
+		A00F60861F9DE6BC00E53D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00F60841F9DE6BC00E53D42 /* Main.storyboard */; };
+		A00F60881F9DE6BC00E53D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00F60871F9DE6BC00E53D42 /* Assets.xcassets */; };
+		A00F608B1F9DE6BC00E53D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00F60891F9DE6BC00E53D42 /* LaunchScreen.storyboard */; };
+		A00F60961F9DE6BC00E53D42 /* PostTestRemajaIslamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F60951F9DE6BC00E53D42 /* PostTestRemajaIslamTests.swift */; };
+		A00F60A11F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F60A01F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.swift */; };
+		A00F60B11F9E31AA00E53D42 /* RemajaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F60B01F9E31AA00E53D42 /* RemajaTableViewController.swift */; };
+		A00F60B81F9E3F9E00E53D42 /* BeritaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F60B71F9E3F9E00E53D42 /* BeritaTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00F60921F9DE6BC00E53D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00F60751F9DE6BC00E53D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00F607C1F9DE6BC00E53D42;
+			remoteInfo = PostTestRemajaIslam;
+		};
+		A00F609D1F9DE6BC00E53D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00F60751F9DE6BC00E53D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00F607C1F9DE6BC00E53D42;
+			remoteInfo = PostTestRemajaIslam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00F607D1F9DE6BC00E53D42 /* PostTestRemajaIslam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostTestRemajaIslam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00F60801F9DE6BC00E53D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00F60821F9DE6BC00E53D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00F60851F9DE6BC00E53D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00F60871F9DE6BC00E53D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00F608A1F9DE6BC00E53D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00F608C1F9DE6BC00E53D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00F60911F9DE6BC00E53D42 /* PostTestRemajaIslamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostTestRemajaIslamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00F60951F9DE6BC00E53D42 /* PostTestRemajaIslamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTestRemajaIslamTests.swift; sourceTree = "<group>"; };
+		A00F60971F9DE6BC00E53D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00F609C1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostTestRemajaIslamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00F60A01F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTestRemajaIslamUITests.swift; sourceTree = "<group>"; };
+		A00F60A21F9DE6BC00E53D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00F60B01F9E31AA00E53D42 /* RemajaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemajaTableViewController.swift; sourceTree = "<group>"; };
+		A00F60B21F9E3A7A00E53D42 /* Di Masjid Hatiku Terkait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Di Masjid Hatiku Terkait.jpg"; sourceTree = "<group>"; };
+		A00F60B31F9E3A7B00E53D42 /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg"; sourceTree = "<group>"; };
+		A00F60B41F9E3A7B00E53D42 /* Doa pada Orang Tua Kita Bagaimana?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Doa pada Orang Tua Kita Bagaimana?.jpg"; sourceTree = "<group>"; };
+		A00F60B51F9E3A7C00E53D42 /* Yang Jarang Diketahui dari Puasa Asyura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yang Jarang Diketahui dari Puasa Asyura.jpg"; sourceTree = "<group>"; };
+		A00F60B61F9E3A7C00E53D42 /* Masih Malas Bangun Subuh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masih Malas Bangun Subuh.jpg"; sourceTree = "<group>"; };
+		A00F60B71F9E3F9E00E53D42 /* BeritaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00F607A1F9DE6BC00E53D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F608E1F9DE6BC00E53D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F60991F9DE6BC00E53D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00F60741F9DE6BC00E53D42 = {
+			isa = PBXGroup;
+			children = (
+				A00F607F1F9DE6BC00E53D42 /* PostTestRemajaIslam */,
+				A00F60941F9DE6BC00E53D42 /* PostTestRemajaIslamTests */,
+				A00F609F1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests */,
+				A00F607E1F9DE6BC00E53D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00F607E1F9DE6BC00E53D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00F607D1F9DE6BC00E53D42 /* PostTestRemajaIslam.app */,
+				A00F60911F9DE6BC00E53D42 /* PostTestRemajaIslamTests.xctest */,
+				A00F609C1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00F607F1F9DE6BC00E53D42 /* PostTestRemajaIslam */ = {
+			isa = PBXGroup;
+			children = (
+				A00F60801F9DE6BC00E53D42 /* AppDelegate.swift */,
+				A00F60B01F9E31AA00E53D42 /* RemajaTableViewController.swift */,
+				A00F60821F9DE6BC00E53D42 /* ViewController.swift */,
+				A00F60841F9DE6BC00E53D42 /* Main.storyboard */,
+				A00F60B71F9E3F9E00E53D42 /* BeritaTableViewCell.swift */,
+				A00F60871F9DE6BC00E53D42 /* Assets.xcassets */,
+				A00F60B21F9E3A7A00E53D42 /* Di Masjid Hatiku Terkait.jpg */,
+				A00F60B41F9E3A7B00E53D42 /* Doa pada Orang Tua Kita Bagaimana?.jpg */,
+				A00F60B61F9E3A7C00E53D42 /* Masih Malas Bangun Subuh.jpg */,
+				A00F60B31F9E3A7B00E53D42 /* Menikah itu Pembuka Pintu Rezeki, Tak Percaya?.jpg */,
+				A00F60B51F9E3A7C00E53D42 /* Yang Jarang Diketahui dari Puasa Asyura.jpg */,
+				A00F60891F9DE6BC00E53D42 /* LaunchScreen.storyboard */,
+				A00F608C1F9DE6BC00E53D42 /* Info.plist */,
+			);
+			path = PostTestRemajaIslam;
+			sourceTree = "<group>";
+		};
+		A00F60941F9DE6BC00E53D42 /* PostTestRemajaIslamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00F60951F9DE6BC00E53D42 /* PostTestRemajaIslamTests.swift */,
+				A00F60971F9DE6BC00E53D42 /* Info.plist */,
+			);
+			path = PostTestRemajaIslamTests;
+			sourceTree = "<group>";
+		};
+		A00F609F1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00F60A01F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.swift */,
+				A00F60A21F9DE6BC00E53D42 /* Info.plist */,
+			);
+			path = PostTestRemajaIslamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00F607C1F9DE6BC00E53D42 /* PostTestRemajaIslam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00F60A51F9DE6BC00E53D42 /* Build configuration list for PBXNativeTarget "PostTestRemajaIslam" */;
+			buildPhases = (
+				A00F60791F9DE6BC00E53D42 /* Sources */,
+				A00F607A1F9DE6BC00E53D42 /* Frameworks */,
+				A00F607B1F9DE6BC00E53D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostTestRemajaIslam;
+			productName = PostTestRemajaIslam;
+			productReference = A00F607D1F9DE6BC00E53D42 /* PostTestRemajaIslam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00F60901F9DE6BC00E53D42 /* PostTestRemajaIslamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00F60A81F9DE6BC00E53D42 /* Build configuration list for PBXNativeTarget "PostTestRemajaIslamTests" */;
+			buildPhases = (
+				A00F608D1F9DE6BC00E53D42 /* Sources */,
+				A00F608E1F9DE6BC00E53D42 /* Frameworks */,
+				A00F608F1F9DE6BC00E53D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00F60931F9DE6BC00E53D42 /* PBXTargetDependency */,
+			);
+			name = PostTestRemajaIslamTests;
+			productName = PostTestRemajaIslamTests;
+			productReference = A00F60911F9DE6BC00E53D42 /* PostTestRemajaIslamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00F609B1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00F60AB1F9DE6BC00E53D42 /* Build configuration list for PBXNativeTarget "PostTestRemajaIslamUITests" */;
+			buildPhases = (
+				A00F60981F9DE6BC00E53D42 /* Sources */,
+				A00F60991F9DE6BC00E53D42 /* Frameworks */,
+				A00F609A1F9DE6BC00E53D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00F609E1F9DE6BC00E53D42 /* PBXTargetDependency */,
+			);
+			name = PostTestRemajaIslamUITests;
+			productName = PostTestRemajaIslamUITests;
+			productReference = A00F609C1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00F60751F9DE6BC00E53D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hilmy Corp.";
+				TargetAttributes = {
+					A00F607C1F9DE6BC00E53D42 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A00F60901F9DE6BC00E53D42 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00F607C1F9DE6BC00E53D42;
+					};
+					A00F609B1F9DE6BC00E53D42 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00F607C1F9DE6BC00E53D42;
+					};
+				};
+			};
+			buildConfigurationList = A00F60781F9DE6BC00E53D42 /* Build configuration list for PBXProject "PostTestRemajaIslam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00F60741F9DE6BC00E53D42;
+			productRefGroup = A00F607E1F9DE6BC00E53D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00F607C1F9DE6BC00E53D42 /* PostTestRemajaIslam */,
+				A00F60901F9DE6BC00E53D42 /* PostTestRemajaIslamTests */,
+				A00F609B1F9DE6BC00E53D42 /* PostTestRemajaIslamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00F607B1F9DE6BC00E53D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F608B1F9DE6BC00E53D42 /* LaunchScreen.storyboard in Resources */,
+				A00F60881F9DE6BC00E53D42 /* Assets.xcassets in Resources */,
+				A00F60861F9DE6BC00E53D42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F608F1F9DE6BC00E53D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F609A1F9DE6BC00E53D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00F60791F9DE6BC00E53D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F60B11F9E31AA00E53D42 /* RemajaTableViewController.swift in Sources */,
+				A00F60831F9DE6BC00E53D42 /* ViewController.swift in Sources */,
+				A00F60B81F9E3F9E00E53D42 /* BeritaTableViewCell.swift in Sources */,
+				A00F60811F9DE6BC00E53D42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F608D1F9DE6BC00E53D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F60961F9DE6BC00E53D42 /* PostTestRemajaIslamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00F60981F9DE6BC00E53D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00F60A11F9DE6BC00E53D42 /* PostTestRemajaIslamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00F60931F9DE6BC00E53D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00F607C1F9DE6BC00E53D42 /* PostTestRemajaIslam */;
+			targetProxy = A00F60921F9DE6BC00E53D42 /* PBXContainerItemProxy */;
+		};
+		A00F609E1F9DE6BC00E53D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00F607C1F9DE6BC00E53D42 /* PostTestRemajaIslam */;
+			targetProxy = A00F609D1F9DE6BC00E53D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00F60841F9DE6BC00E53D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00F60851F9DE6BC00E53D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00F60891F9DE6BC00E53D42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00F608A1F9DE6BC00E53D42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00F60A31F9DE6BC00E53D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00F60A41F9DE6BC00E53D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00F60A61F9DE6BC00E53D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = PostTestRemajaIslam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.PostTestRemajaIslam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00F60A71F9DE6BC00E53D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = PostTestRemajaIslam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.PostTestRemajaIslam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00F60A91F9DE6BC00E53D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = PostTestRemajaIslamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.PostTestRemajaIslamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostTestRemajaIslam.app/PostTestRemajaIslam";
+			};
+			name = Debug;
+		};
+		A00F60AA1F9DE6BC00E53D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = PostTestRemajaIslamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.PostTestRemajaIslamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostTestRemajaIslam.app/PostTestRemajaIslam";
+			};
+			name = Release;
+		};
+		A00F60AC1F9DE6BC00E53D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = PostTestRemajaIslamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.PostTestRemajaIslamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostTestRemajaIslam;
+			};
+			name = Debug;
+		};
+		A00F60AD1F9DE6BC00E53D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = PostTestRemajaIslamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.PostTestRemajaIslamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostTestRemajaIslam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00F60781F9DE6BC00E53D42 /* Build configuration list for PBXProject "PostTestRemajaIslam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F60A31F9DE6BC00E53D42 /* Debug */,
+				A00F60A41F9DE6BC00E53D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00F60A51F9DE6BC00E53D42 /* Build configuration list for PBXNativeTarget "PostTestRemajaIslam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F60A61F9DE6BC00E53D42 /* Debug */,
+				A00F60A71F9DE6BC00E53D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00F60A81F9DE6BC00E53D42 /* Build configuration list for PBXNativeTarget "PostTestRemajaIslamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F60A91F9DE6BC00E53D42 /* Debug */,
+				A00F60AA1F9DE6BC00E53D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00F60AB1F9DE6BC00E53D42 /* Build configuration list for PBXNativeTarget "PostTestRemajaIslamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00F60AC1F9DE6BC00E53D42 /* Debug */,
+				A00F60AD1F9DE6BC00E53D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00F60751F9DE6BC00E53D42 /* Project object */;
+}
